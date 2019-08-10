@@ -1,0 +1,112 @@
+body
+{
+  margin:0;
+  padding:0;
+  color: #9C6400;
+}
+h3{
+  text-align:center;
+}
+
+/**=== Header ====*/
+header
+{
+  background-color:#FFD46E;
+  background-size:cover;
+  opacity: .7;
+  height:10em;
+}
+
+/** ==== Navigation ==== */
+h1
+{
+  margin:0;
+  text-align:center;
+  padding:2em 1em;
+  color:#9C6400;
+  opacity:1;
+  font-family:"Arial Black", Gadget, sans-serif;
+}
+ul
+{
+  margin:0;
+  padding:0;
+  position:fixed;
+  top:1em;
+  left:70%
+
+}
+li
+{
+  list-style-type: none;
+  display:inline-block;
+  padding: .5em 1em;
+  font-family: 'lato', sans-sans-serif;
+  font-weight:800;
+}
+li a
+{
+  text-decoration:none;
+  color:#9C6400;
+  font-size:.8em;
+}
+li a:hover
+{
+  color:#DB7D02;
+  box-shadow: 1px 5px 5px -5px #DB7D02;
+}
+
+/**=== Styles for both picture rows ==== */
+.PictureRow{}
+img
+{
+  height:auto;
+  width:300px;
+  margin: 2em 3em 1em 4em;
+}
+.content-title
+{
+	font-family: "Helvetica";
+}
+.laundry{
+	float:right;
+}
+.Some_Words
+{
+  font-size: 1.2em;
+  text-align: center;
+  float:clear;
+  font-family: "Helvetica"  
+}
+p.clear{
+	float:clear;
+
+}
+.Some_Words1{
+	font-size: 1.2em;
+    text-align: center;
+	font-family: "Helvetica"
+}
+img:hover{
+  box-shadow: 3px 5px 10px #9C6400;
+}
+
+/*==== Styles for Paragraph ====*/
+.Paragraph
+{
+  float:none;
+  color:#F1F0EE;
+  background-color: #9C6400;
+  border:2em solid #9C6400;
+  padding: 3em;
+}
+
+/*=== Footer ====*/
+footer
+{
+  color:white;
+  padding:2em 2em;
+  text-align:center;
+  background-color:  #9C6400;
+  opacity:.8;
+}
