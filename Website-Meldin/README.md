@@ -1,0 +1,1 @@
+Didnt open image in Firefox, Use Chrome (8.10.2019)
