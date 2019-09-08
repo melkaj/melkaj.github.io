@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="style_n.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="../scripts/jquery-3.4.1.min.js"></script>
+    <script src="../scripts/bootstrap.min.js"></script>
+    <title>Meldin's Website</title>
+
+  </head>
+
+  <body>
+        <div class="links">
+            <a href="https://github.com/melkaj">My Github</a>
+            <span> | </h1>
+            <a href="https://github.com/melkaj">Projects</a>
+            <span> | </h1>
+            <a href="https://google.com">Hobbies</a>
+        </div>
+        <div class="heading">
+            <h1>Hi, I'm Meldin</h1>  
+            <p id="scroll-down">(Scroll Down)</p>  
+        </div>
+
+        <div class="container-fluid">
+
+<!-- ABOUT ME -->
+            <div class="col-xs-12 fill-screen">
+                <div class="row no-gutters">
+                    <h3 class="about-me-title">About Me</h3>
+                </div>
+    
+                <div class="row no-gutters">
+                    <div class="col-xs-12 col-sm-9">
+                        <p class="text odd-panel">
+                            My name is <strong>Meldin Kajoshaj</strong> and I am  student at The College of New York. I am a junior pursing 
+                            a Bachelors of Engineering in Computer Engineering. In my spare time I try to work on side projects that
+                            interest me and spend as much time with family and friends as I can.<br><br>
+                            Having an older brother that was into technology made me gravitate towards it while growing up. So, when choosing a 
+                            major for college, I thought it was a no brainer at the time. I started coding my freshman year and I knew since then 
+                            it was something I wanted to persue for a career. 
+                        </p> 
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="my-img">
+                            <img class="my-img"src="img/image.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    
+ <!-- PROJECTS -->
+            <div class="back">
+                <div class="col-xs-12 fill-screen">
+                    <div class="row no-gutters">
+                        <h3 class="project-title">Projects</h3>
+                    </div>
+        
+                    <div class="row no-gutters">
+                        <div class="col-xs-12 col-sm-4">
+                            <p class="text even-panel">
+                                <strong>CUNY IBM Watson Social Impact Challenge</strong> - Worked on a team of 4 that proposed to decrease parking 
+                                search times by using machine learning models that would give drivers information about the parking 
+                                conditions around a desired destination. Created a one-page proposal explaining our idea in the first
+                                round followed by a three-page business case analysis, a 1-min video in the next round, followed by
+                                a five-minute presentation in front of a panel of judges as a top 10 finalist
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <p class="text even-panel">
+                                <strong>SkinSight, BrickHack V Hackathon</strong> - Worked in a team of 3 to create a web-based application using 
+                                an IBM Watson Visual Recognition model to allow users to detect the early stages of carcinoma and melanoma. 
+                                Implemented our Visual Recognition model using Python API calls, which recognizes carcinoma and melanoma with 92%
+                                accuracy, and malignancy within 80.2%, allowing users to upload an image of their suspected skin lesion. Trained 
+                                model using the HAM10000 dataset of categorized skin conditions and lesions.
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <p class="text even-panel">
+                                <strong>Company Database</strong> - Built database using MySQL which records company information such as employee names, 
+                                job titles, salaries, social security numbers, etc. Created a user interface using Java that allowed the 
+                                user to modify, insert, or delete information from the database.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+<!-- HOBBIES -->
+            <div class="fill-screen">
+                <div class="row no-gutters fill-screen">
+                    <div class="col-xs-12">
+                        <div class="row">
+                            <h3 class="hobbies-title">Hobbies</h3>
+                        </div>
+                        <div class="row">
+                            <p class="text odd-panel">
+                                Whenever I have free time, I try to spend that time with family friends. 
+                                Sometimes that means playing basketball or raquetball, grabbing a bite to eat, or just 
+                                enjoying their company. Spending time with the people I love is something I feel to be super important
+                                as I find it to be thereputic. It makes the rough times not as rough and it makes the great times even greater 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+<!--FOOTER-->
+        <footer>
+            <p>Enter a copyright?. No, 8/2019</p>
+        </footer>
+
+<!-- SCRIPTS -->
+        <script>
+            $(function () {
+                $(window).on("load resize", function() {
+                    $(".fill-screen").css("height", window.innerHeight);
+                })
+            })
+        </script>
+
+
+  </body>
+</html>
